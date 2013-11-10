@@ -1,0 +1,66 @@
+D:\dev\Workspace\github\corejava\helloworld>javac org.bharath0091.HelloWorld.jav
+a
+javac: file not found: org.bharath0091.HelloWorld.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+D:\dev\Workspace\github\corejava\helloworld>cd D:\dev\Workspace\github\corejava\
+helloworld\org\bharath0091
+
+D:\dev\Workspace\github\corejava\helloworld\org\bharath0091>javac HelloWorld.jav
+a
+HelloWorld.java:3: class HelloWorldClass is public, should be declared in a file
+ named HelloWorldClass.java
+public class HelloWorldClass{
+       ^
+1 error
+
+D:\dev\Workspace\github\corejava\helloworld\org\bharath0091>javac HelloWorld.jav
+a
+
+D:\dev\Workspace\github\corejava\helloworld\org\bharath0091>javac HelloWorld.jav
+a
+HelloWorld.java:3: modifier protected not allowed here
+protected class HelloWorldClass{
+          ^
+1 error
+
+D:\dev\Workspace\github\corejava\helloworld\org\bharath0091>javac HelloWorld.jav
+a
+HelloWorld.java:3: modifier private not allowed here
+private class HelloWorldClass{
+        ^
+1 error
+
+D:\dev\Workspace\github\corejava\helloworld\org\bharath0091>cd..
+
+D:\dev\Workspace\github\corejava\helloworld\org>
+D:\dev\Workspace\github\corejava\helloworld\org>cd..
+
+D:\dev\Workspace\github\corejava\helloworld>javac org.bharath0091.HelloWorld.jav
+a
+javac: file not found: org.bharath0091.HelloWorld.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+D:\dev\Workspace\github\corejava\helloworld>cd D:\dev\Workspace\github\corejava\
+helloworld\org\bharath0091
+
+D:\dev\Workspace\github\corejava\helloworld\org\bharath0091>javac HelloWorld.jav
+a
+
+D:\dev\Workspace\github\corejava\helloworld\org\bharath0091>java org.bharath0091
+.HelloWorldClass
+Exception in thread "main" java.lang.NoClassDefFoundError: org/bharath0091/Hello
+WorldClass
+Caused by: java.lang.ClassNotFoundException: org.bharath0091.HelloWorldClass
+        at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+        at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+        at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+        at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+Could not find the main class: org.bharath0091.HelloWorldClass.  Program will ex
+it.
+
+D:\dev\Workspace\github\corejava\helloworld\org\bharath0091>
