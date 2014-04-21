@@ -5,7 +5,6 @@ import java.net.InetSocketAddress;
 import java.net.Proxy;
 import java.net.SocketAddress;
 import java.net.URL;
-import java.sql.Connection;
 
 public class TestUrl {
 

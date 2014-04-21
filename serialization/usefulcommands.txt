@@ -1,0 +1,16 @@
+in cmd.exe
+
+D:\dev\Workspace\github\corejava\serialization>serialver -classpath D:\\dev\\Wor
+kspace\\github\\corejava\\serialization\\bin com.bharath0091.Test
+com.bharath0091.Test:    static final long serialVersionUID = -46123223507895706
+98L;
+
+or use this option
+
+D:\dev\Workspace\github\corejava\serialization>serialver -classpath D:\\dev\\Wor
+kspace\\github\\corejava\\serialization\\bin -show
+
+or 
+
+eclipse also can do this without all this strugle :)
+
