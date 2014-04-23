@@ -1,0 +1,11 @@
+add the directory where ur classes are there in classpath
+
+D:\dev\Workspace\github\corejava\swing\bin>jar -cvmf manifest.txt appl.jar ./com
+
+added manifest
+adding: com/(in = 0) (out= 0)(stored 0%)
+adding: com/bharath0091/(in = 0) (out= 0)(stored 0%)
+adding: com/bharath0091/file/(in = 0) (out= 0)(stored 0%)
+adding: com/bharath0091/file/Test.class(in = 802) (out= 513)(deflated 36%)
+
+D:\dev\Workspace\github\corejava\swing\bin>java -jar appl.jar
